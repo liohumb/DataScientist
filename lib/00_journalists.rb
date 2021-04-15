@@ -37,6 +37,23 @@ list.each do |i|
   puts i
 end
 
-#Quelle est la position dans l'array de la personne @epenser
+#Quelle est la position dans l'array de la personne @epenser.
 puts "La position de la personne @epenser"
 puts arr.index("@epenser")
+
+#Sors moi une répartition des handle par taille de ces derniers.
+puts "La répartition par taille des handles"
+x = 0
+length = arr.length
+y = 2
+while x != length
+    z = 0
+    arr.each do |i|
+        if (i.length) == y
+          z = z + 1
+        end
+    end
+    puts "Il y a #{z} handle(s) de #{y - 1} caractère(s)"
+    y = y + 1
+    x = x + z
+end
