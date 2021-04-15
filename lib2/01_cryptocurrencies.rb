@@ -40,7 +40,7 @@ def menu
         menu
     when "3"
         #Les devises dont le cours est inférieur à 6000
-        puts crypto_hash.select{ |name, price| price < 6000}
+        puts crypto_hash.select{ |name, price| price < 6000}.keys
         menu
     when "4"
         #La devise la plus chère parmi celles dont le cours est inférieur à 6000
