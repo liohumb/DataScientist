@@ -32,7 +32,7 @@ end
 
 #La ou les crypto qui ont la plus grosse y.
 def grosse(hash)
-	puts "• Quelle est la ou les crypto(s) qui ont la plus grosse y ? •"
+	puts "• Quelle est la ou les crypto(s) qui ont la plus grosse valeur ? •"
 	y_max = 0.0
 	hash.each do |x, y|
 		if y.to_f > y_max
@@ -48,7 +48,7 @@ end
 
 #La ou les crypto qui ont la plus petite y.
 def petite(hash)
-	puts "• Quelle est la ou les crypto(s) qui ont la plus petite y ? •"
+	puts "• Quelle est la ou les crypto(s) qui ont la plus petite valeur ? •"
 	min_y = 100.0
 	hash.each do |x, y|
 		if y.to_f < min_y
