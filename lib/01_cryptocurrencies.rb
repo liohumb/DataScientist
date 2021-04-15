@@ -14,8 +14,8 @@ end
 #Les questions
 def questions
 	puts "Hello, choisi le numéro qui correspond à la question de ton choix :"
-	puts "• 1 • Quelle est la ou les crypto(s) qui ont la plus grosse y ?"
-	puts "• 2 • Quelle est la ou les crypto(s) qui ont la plus petite y ?"
+	puts "• 1 • Quelle est la ou les crypto(s) qui ont la plus grosse valeur ?"
+	puts "• 2 • Quelle est la ou les crypto(s) qui ont la plus petite valeur ?"
 	puts "• 3 • Quelles sont les devises dont le cours est inférieur à 6000 ?"
 	puts "• 4 • Quelle est la devise la plus chère parmi celles dont le cours est inférieur à 6000 ?"
 	puts "• 0 • Pour sortir"
